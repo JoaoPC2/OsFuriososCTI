@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - OsFuriosos</title>
+    <link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="imagens/OsFuriosos_semfundo.png" id="img-header-logo">
+                <h1>&copy;OsFuriosos</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Projeto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Minha Conta</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#">REGISTRAR</a></button>
+            </div>
+
+
+            <div class="mobile-menu-icon">
+                <button id="icon-menu"><img class="icon" src="imagens/icone_menu.png"></button>
+            </div>
+        </nav>
+
+        
+    </header>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Projeto</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Minha Conta</a></li>
+        </ul>
+        <div class="login-button">
+            <button><a href="">ENTRAR</a></button>
+        </div>
+
+    </div>
+    <main class="main-register">
+        <div class="left-reg">
+            <h1>Faça o Login<br> e entre para o nosso time</h1>
+            <img src="imagens/OsFuriosos_semfundo.png" alt="Logo OsFuriosos" class="left-reg-img">
+        </div>
+        <div class="right-reg">
+            <div class="area-login">
+                <h1>Login</h1>
+                <div class="textregistro">
+                    <label for="email">Email <span class="textregistro-error">*ERRO ao reconhecer email, digite o email novamente</span></label>
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+                <div class="textregistro">
+                    <label for="senha">Senha <span class="textregistro-error">*ERRO a senha deve possuir no mínimo 8 carecteres e pelo menos uma letra e um número</span></label> 
+                    <input type="password" id="senha" placeholder="Senha">
+                </div>
+                <button class="btn-register">Confirmar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="https://setrem.edu.br/" target="_blank"><img class="img-footer-setrem" src="imagens/setrem_100.png"></a>
+    </footer>
+    <script type="module" src="js/registro.js"></script>
+</body>
+</html>
